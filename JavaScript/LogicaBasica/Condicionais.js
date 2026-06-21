@@ -6,6 +6,8 @@
     - Maior ou menor que 100
 */
 
+//Não tem muitos comentarios porque a sintaxe é muito parecida com a do Java
+
 const readline = require("readline-sync");
 
 let op;
