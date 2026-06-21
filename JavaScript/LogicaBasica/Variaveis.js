@@ -13,8 +13,13 @@ let nome;           //Aqui eu não coloquei um valor pra ver o tipo dela como un
 console.log(typeof idade);      //typeof serve para verificar o tipo da variavel, passando o nome dela
 console.log(typeof nome);
 
-// Operadores logicos & de Comparação
+// Entrada e Saida de dados
 
-nome = "Matheus";
+const readline = require("readline-sync");      //Importando a biblioteca para entrada de dados
+
+nome = readline.question("Qual é o seu nome? ");        //Imprime o texto, pausa o programa esperando o usuário digitar, e retorna o que foi digitado
+idade = readline.question("Qual é sua idade? ");
+
+Number(idade);              //Converte o valor que esta em idade como (String por conta da question) e para number
 
 console.log(`${nome} tem ${idade} anos e faltam `, 100 - idade, "anos para os 100 anos de idade");
