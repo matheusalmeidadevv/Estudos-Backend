@@ -30,8 +30,15 @@ function Multiplicar(a, b){
 
 function Dividir(a, b){
 
-    return console.log(`A Divisao entre ${a} e ${b} é ${a / b}`);
+    if(a === 0 || b == 0){
 
+        return console.log("ERRO!!!!!!\nA divisão de qualquer número por zero é indefinida");
+
+    }else{
+    
+        return console.log(`A Divisao entre ${a} e ${b} é ${a / b}`);
+    
+    }
 }
 
 const readline = require("readline-sync");
