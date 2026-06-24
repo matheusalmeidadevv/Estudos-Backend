@@ -10,35 +10,30 @@ dividir(a, b)
 //Diferente do JAVA, no JS você precisa dizer que é uma função colocando o "function"
 //E dentro dos parametros você não precisa definir o tipo, por ser tipagem dinamica, ele converte o tipo automaticamente
 
+//BOAS PRATICAS 01:
+// Um metodo deve fazer apenas 1 coisa, ele não pode, por exemplo, somar e imprimir essa soma, ele deve só somar ou imprimir
 function Somar(a, b){
 
-    return console.log(`A soma entre ${a} e ${b} é ${a + b}`);
+    return a + b;
 
 }
 
 function Subtrair(a, b){
 
-    return console.log(`A Subtração entre ${a} e ${b} é ${a - b}`);
+    return a - b;
 
 }
 
 function Multiplicar(a, b){
 
-    return console.log(`A Multiplicação entre ${a} e ${b} é ${a * b}`);
+    return a * b;
 
 }
 
 function Dividir(a, b){
 
-    if(a === 0 || b == 0){
+    return a / b;
 
-        return console.log("ERRO!!!!!!\nA divisão de qualquer número por zero é indefinida");
-
-    }else{
-    
-        return console.log(`A Divisao entre ${a} e ${b} é ${a / b}`);
-    
-    }
 }
 
 const readline = require("readline-sync");
@@ -60,19 +55,32 @@ op = Number(op);
 switch(op){
 
     case 1:
-        Somar(num1, num2);
+        
+        console.log(`A soma entre ${num1} e ${num2} é ${Somar(num1, num2)}`);
     break;
     
     case 2:
-        Subtrair(num1, num2);
+        
+        console.log(`A subtração entre ${num1} e ${num2} é ${Subtrair(num1, num2)}`);
     break;
     
     case 3:
-        Multiplicar(num1, num2);
+        console.log(`A Multiplicação entre ${num1} e ${num2} é ${Multiplicar(num1, num2)}`);
     break;
     
     case 4:
-        Dividir(num1, num2);
+        
+        if(num1 === 0 || num2 === 0){
+
+        console.log("ERRO!!!!!!\nA divisão de qualquer número por zero é indefinida");
+
+    }else{
+    
+        
+        console.log(`A Divisão entre ${num1} e ${num2} é ${Dividir(num1, num2)}`);
+    
+    }
+    
     break;
     
     case 5:
