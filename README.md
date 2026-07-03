@@ -10,8 +10,8 @@ O repositório cresce conforme novas tecnologias e conceitos são aprendidos, se
 ```
 Estudos-Backend/
 ├── JavaScript/
-│   ├── LogicaBasica/        ← Fundamentos de programação em JavaScript
-│   └── JSAvancado/          ← JavaScript avançado e conceitos profundos
+│   ├── JSAvancado/        ← JavaScript avançado e conceitos profundos 
+│   └── LogicaBasica/          ← Fundamentos de programação em JavaScript
 └── ...                      ← Novas tecnologias conforme o avanço dos estudos
 ```
 
