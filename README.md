@@ -5,7 +5,7 @@ O repositório cresce conforme novas tecnologias e conceitos são aprendidos, se
 
 ---
 
-## 📁 Estrutura
+## Estrutura
 
 ```
 Estudos-Backend/
@@ -17,7 +17,7 @@ Estudos-Backend/
 
 ---
 
-## 📝 O que você vai encontrar aqui
+## O que você vai encontrar aqui
 
 - Atividades práticas de fixação
 - Experimentos e testes com novas tecnologias
