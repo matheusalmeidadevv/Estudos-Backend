@@ -1,3 +1,6 @@
+//Acredito que eu preciso praticar mais sobre closures
+//por ser o assunto mais diferente que eu ja vi 
+
 /*Crie uma closure chamada criarContador que:
 
 Não recebe parâmetro nenhum
