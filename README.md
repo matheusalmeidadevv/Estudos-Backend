@@ -4,7 +4,7 @@ Repositório com todas as atividades, exercícios e projetos desenvolvidos duran
 O repositório cresce conforme novas tecnologias e conceitos são aprendidos, sem data de término prevista.
 
 ---
-Sobre
+## Sobre
 
 Estudos estruturados seguindo um roadmap próprio de Backend Specialist, cobrindo as principais tecnologias e conceitos do desenvolvimento backend moderno:
 
