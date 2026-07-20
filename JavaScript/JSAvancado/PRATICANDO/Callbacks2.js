@@ -4,7 +4,7 @@ function enviarNotificacao(usuario, callback){
 
         callback(usuario, "Curtiu sua foto!");
 
-    }, 1500);
+    }, 1500); 
 
 }
 
